@@ -1,0 +1,52 @@
+body {
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  text-shadow: 3px 3px 3px gray;
+  font-size: 10em;
+  margin-bottom: 1em;
+  font-family: "Amatic SC", cursive;
+  transform: scale(1, 1.5);
+}
+
+img {
+  padding: 1em;
+  border: 2px;
+  align-items: center;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  background-color: tan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  padding: 17px 34px;
+}
+
+input {
+  padding: 15px;
+  text-align: left;
+  font-size: 16px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color: gray;
+  text-align: center;
+}

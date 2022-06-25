@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Giphy Party!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>GIPHY PARTY!</h1>
+
+    <form>
+      <input type="text" id="search" placeholder="Enter a search term" />
+      <button type="submit" id="submit">Search Giphy!</button>
+      <button id="remove-images" onclick="clearImages()">Remove Images</button>
+    </form>
+    <p id="gifs"></p>
+
+    <footer>
+      Created by Colby Racine - University of South Florida Software Engineering
+      Bootcamp 2022
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
