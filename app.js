@@ -6,6 +6,7 @@ document.querySelector("#submit").addEventListener("click", getGiphy);
 
 async function getGiphy(event) {
   event.preventDefault();
+
   //   get value of search phrase and submit request to API
   let searchWord = input.value;
   let res = await axios.get(url + searchWord);
